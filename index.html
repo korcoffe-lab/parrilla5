@@ -564,7 +564,7 @@
         <p class="section-tag">Nuestra historia</p>
         <h2 class="section-title">El sabor de Argentina en Jalisco</h2>
         <div class="divider"></div>
-        <p>Somos Parrilla 5, un emprendimiento familiar apasionado por la auténtica cocina argentina. Llegamos a Zapopan y Guadalajara con la misión de traer el sabor real del asado Argentino: chorizo al fuego lento, empanadas caseras y los mejores alfajores.</p>
+        <p>Somos Parrilla 5, un emprendimiento familiar apasionado por la auténtica cocina argentina. Llegamos a Zapopan y Guadalajara con la misión de traer el sabor real del asado rioplatense: chorizo al fuego lento, empanadas caseras y los mejores alfajores.</p>
         <p>Nacimos en los bazares de la ciudad y hoy estamos listos para ir directamente a tus eventos y días especiales. Cada platillo es preparado con ingredientes de calidad y el secreto más importante: el amor por la comida argentina.</p>
         <div class="about-badges">
           <span class="badge">🇦🇷 100% Argentino</span>
@@ -573,12 +573,16 @@
         </div>
       </div>
       <div class="about-visual">
-        <div class="av-box" style="background:var(--brown);">
-          <span style="font-size:4rem;">🥩</span>
+        <div class="av-box" style="background:var(--brown);padding:0;">
+          <img src="asado.jpg" alt="Asado Parrilla 5" style="width:100%;height:100%;object-fit:cover;border-radius:4px;" onerror="this.style.display='none';this.parentElement.style.background='var(--brown)'"/>
           <span class="av-flag">🇦🇷</span>
         </div>
-        <div class="av-box"><span class="emoji">🌭</span></div>
-        <div class="av-box"><span class="emoji">🥐</span></div>
+        <div class="av-box" style="padding:0;">
+          <img src="choripan.jpg" alt="Choripán" style="width:100%;height:100%;object-fit:cover;border-radius:4px;" onerror="this.style.display='none';this.parentElement.innerHTML+='<span class=\'emoji\'>🌭</span>'"/>
+        </div>
+        <div class="av-box" style="padding:0;">
+          <img src="empanadas.jpg" alt="Empanadas" style="width:100%;height:100%;object-fit:cover;border-radius:4px;" onerror="this.style.display='none';this.parentElement.innerHTML+='<span class=\'emoji\'>🥟</span>'"/>
+        </div>
       </div>
     </div>
   </div>
@@ -593,9 +597,8 @@
     <div class="menu-grid">
 
       <div class="menu-card">
-        <div class="card-img" style="background:#5c2a14;">
-          <div class="card-img-bg">🌭</div>
-          <span style="position:relative;font-size:4rem;">🌭</span>
+        <div class="card-img" style="background:#5c2a14;padding:0;">
+          <img src="choripan.jpg" alt="Choripán" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none';this.parentElement.innerHTML+='<span style=\'font-size:4rem;position:absolute;\'>🌭</span>'"/>
         </div>
         <div class="card-body">
           <div class="card-name">Choripán</div>
@@ -605,9 +608,8 @@
       </div>
 
       <div class="menu-card">
-        <div class="card-img" style="background:#7a3520;">
-          <div class="card-img-bg">🥟</div>
-          <span style="position:relative;font-size:4rem;">🥟</span>
+        <div class="card-img" style="background:#7a3520;padding:0;">
+          <img src="empanadas.jpg" alt="Empanadas" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none';this.parentElement.innerHTML+='<span style=\'font-size:4rem;position:absolute;\'>🥟</span>'"/>
         </div>
         <div class="card-body">
           <div class="card-name">Empanadas</div>
@@ -617,9 +619,8 @@
       </div>
 
       <div class="menu-card">
-        <div class="card-img" style="background:#3b2a1e;">
-          <div class="card-img-bg">🍪</div>
-          <span style="position:relative;font-size:4rem;">🍪</span>
+        <div class="card-img" style="background:#3b2a1e;padding:0;">
+          <img src="alfajores.jpg" alt="Alfajores" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none';this.parentElement.innerHTML+='<span style=\'font-size:4rem;position:absolute;\'>🍪</span>'"/>
         </div>
         <div class="card-body">
           <div class="card-name">Alfajores</div>
